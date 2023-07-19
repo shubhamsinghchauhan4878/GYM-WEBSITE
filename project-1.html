@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project for fitness gym</title>
+    <style>
+        body {
+            color: white;
+            background-image: url('img/gym.jpg');
+
+        }
+
+        .left {
+            border: -8px solid silver;
+            display: inline-block;
+            position: absolute;
+            left: 2%;
+            top: 5px;
+            margin: 5%;
+        }
+
+        .left img {
+            align-items: center;
+            width: 110px;
+
+        }
+
+        .left h3 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        .mid {
+            margin: 70px auto;
+            width: 50%;
+            border: -8px solid yellow;
+            display: block;
+            position: static;
+        }
+
+        .right {
+            border: -8px solid silver;
+            display: inline-block;
+            position: absolute;
+            right: 0%;
+            top: 6px;
+            margin: 5%;
+        }
+
+        .navbar li {
+            display: inline-block;
+            list-style: none;
+
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: px;
+            font-size: 25px;
+            padding: 13px;
+
+        }
+
+        .navbar a:hover {
+            color: plum;
+        }
+
+        .btn {
+            margin: 0px;
+            border: -8px;
+            background-color: BLACK;
+            color: WHITE;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 4%;
+        }
+
+        .btn:hover {
+            background-color: green;
+        }
+
+        .container {
+            border: white;
+            width: 52%;
+            margin: 39px 116px;
+            padding: 20px 203px;
+            border-radius: 43px;
+        }
+
+        .FORM {
+            margin: 2px 96px;
+            padding: 2px 2px;
+            border: solid white;
+            border-radius: 5px;
+            text-align: center;
+            width: 70%;
+            border-radius: 23px;
+        }
+
+        .FORM input {
+            text-align: center;
+            padding: 3%;
+            margin: 2px solid black;
+            position: relative;
+            background-color: rgb(249, 250, 247);
+            display: ;
+            border-radius: 14px;
+            margin: 13px 55px;
+            width: 285px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="left">
+        <img src="img/dumbell.jpg" alt="">
+        <h3>FITNESS CLUB</h3>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FITNESS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn">call us</button>
+        <button class="btn">email </button>
+    </div>
+    <div class="container">
+        <marquee behavior="" direction="left">COMING SOON</marquee>
+        <h1 align="center">JOIN THE BEST GYM
+        </h1><br>
+        <FORM class="FORM" action="noaction.php">
+            <div>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="enter your father's name">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="enter your address">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="gender">
+            </div>
+            <div class="input">
+                <input type="date" placeholder="date of birth">
+            </div>
+            <button class="btn">submit</button>
+
+        </FORM>
+    </div>
+
+</body>
+
+</html>
